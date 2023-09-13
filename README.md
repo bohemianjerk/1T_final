@@ -8,6 +8,6 @@
 
 1. Для того чтобы позволить клиентам заказывать такси онлайн и обеспечить сбор, хранение и обработку больших объемов информации, наиболее целесообразным решением является использование Hadoop, которая представляет собой мощную экосистему для эффективного управления данными.
 2. Для выполнения задания используются PySpark, pandas, matplot, os.
-3. Задание выполнено в Jupyter Notebook, ["Проект 5.ipynb"](https://github.com/damn-boi/1T_final/blob/main/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%205.ipynb).
+3. Задание выполнено в Jupyter Notebook, ["Проект 5.ipynb"](https://github.com/damn-boi/1T_final/blob/main/app/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%205.ipynb).
 
-Вторая часть задания выполнена локально в vs code: [task 2](https://github.com/damn-boi/1T_final/blob/main/task%202.py).
+Вторая часть задания выполнена локально в vs code: ["task 2.py"](https://github.com/damn-boi/1T_final/blob/main/app/task%202.py).
