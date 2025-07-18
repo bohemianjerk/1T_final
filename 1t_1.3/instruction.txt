@@ -1,0 +1,11 @@
+1) Перейдем в папку с dockerfile: cd .\docker\db
+2) Создадим образ в текущей директории: docker build -t test_image:latest .
+3) Проверим, создан ли образ: docker images
+4) Запустим контейнер: docker run -d -p 5432:5432 --name test_container test_image:latest
+5) Запустим psql в работающем контейнере: docker exec -it test_container psql -U postgres
+6) Выведем в командную строку список БД: \l
+7) Соединимся с БД postgres: \c postgres
+8) Добавим колонок к существующей таблице:
+  insert into public.index_mass (user_id, weight, height) values (4, 202, 235);
+  insert into public.index_mass (user_id, weight, height) values (5, 203, 236);
+9) Для добавления тома в Dockerfile добавим: VOLUME [ "/data:/var/lib/postgresql/data" ]
